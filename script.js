@@ -39,3 +39,54 @@ if(myname === "Viktorr"){
     console.log("Привет, незнакомец!");
 }
 
+//Считаем овец с помощью цикла while
+
+//С помощью цикла While
+
+var sheepCounted = 0;
+ while (sheepCounted < 10) {
+ console.log("Посчитано овец: " + sheepCounted + "!");
+ sheepCounted++;
+}
+console.log("Хрррррррррр-псссс");
+
+//С помощью цикла for 
+
+for (var sheepCounted = 0; sheepCounted < 10; sheepCounted++) {
+    console.log("Посчитано овец: " + sheepCounted + "!");
+   }
+   console.log("Хрррррррррр-псссс");
+
+   var timesToSayHello = 3;
+    for (var i = 0; i < timesToSayHello; i++) {
+ console.log("Привет!");
+}
+
+var animals = ["лев", "фламинго", "белый медведь", "удав"];
+for (var i = 0; i < animals.length; i++) {
+ console.log("В этом зоопарке есть " + animals[i] + ".");
+}
+
+var name = "Ник";
+for (var i = 0; i < name.length; i++) {
+ console.log("В моем имени есть буква " + name[i] + ".");
+}
+
+for (var x = 2; x < 10000; x = x * 2) {
+    console.log(x);
+   }
+
+//    ПОПРОБУЙТЕ!
+//    Напишите цикл for, который печатает степени тройки, не превышающие 
+//    10 000 (программа должна выводить 3, 9, 27 и т. д.)
+//    Перепишите это задание, вместо for использовав цикл while. 
+//    (Подсказка: установите начальное значение перед входом в цикл.
+
+for (var x = 3; x < 10000; x = x * 3) {
+    console.log(x);
+   }
+
+   var number = 0;
+   while (number  < 10000) {
+    console.log(number = number * 3);
+   }
